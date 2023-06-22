@@ -1,0 +1,94 @@
+.oc-search-select-symbol {
+  z-index: 153;
+}
+
+.oc-search-select-expiry {
+  z-index: 152;
+}
+
+.oc-search-select-strike {
+  font-size: 0.75rem;
+  z-index: 151;
+}
+
+.option-table {
+  font-size: 0.95em !important;
+  font-weight: 400;
+  background-color: white;
+}
+
+.option-table {
+  table {
+    thead, tbody, tfoot, tr, td, th {
+      text-align: center !important;
+    }
+  }
+}
+
+.searchform {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  width: 100%;
+}
+
+.search-field-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid;
+}
+
+.search-label {
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.search-field {
+  padding: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.search-spot {
+  padding: 0.45rem 0.80rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid #d9dbde;
+  border-radius: 4px;
+}
+
+.bg-strike {
+  background-color: #e6ffe6 !important;
+  cursor: pointer;
+}
+
+.bg-itm {
+  background-color: #ffffe6 !important;
+}
+
+.bg-negative {
+  color: #ff0000 !important;
+}
+
+.bg-positive {
+  color: #008000 !important;
+}
+
+.search-footer {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.timestamp {
+  padding-right: 10px;
+  font-size: 0.75rem;
+}
+
+.display-strike {
+  align-items: center;
+  float: right;
+}

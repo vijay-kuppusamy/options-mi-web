@@ -1,0 +1,45 @@
+.watchlist-lable {
+    font-size: 1em !important;
+}
+.watchlist-title {
+    font-size: 0.9em !important;
+    padding: 5px;
+}
+.watchlist-date {
+    font-size: 0.9em !important;
+    padding: 5px;
+}
+.watchlist-price {
+    font-size: 0.9em !important;
+    padding: 5px;
+}
+
+.watchlist-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.watchlist-actions {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.watchlist-button {
+    margin-right: 10px;
+}
+
+.watchlist-table {
+    font-size: 1em !important;
+    background-color: white !important;
+    width: 100%;
+    height: auto;
+}
+
+.watchlist-table {
+    table {
+        thead, tbody, tfoot, tr, td, th {
+            text-align: center !important;
+        }
+    }
+}

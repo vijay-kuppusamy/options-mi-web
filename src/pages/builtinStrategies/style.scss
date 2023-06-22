@@ -1,0 +1,64 @@
+.strategy {
+    display: flex;
+    flex-direction: row;
+}
+
+.strategy-header {
+    display: flex;
+    padding: 9px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.strategy-title {
+    margin: 5px;
+    align-items: center;
+}
+.strategy-search {
+    padding-right: 10px;
+    width: 50%;
+}
+.strategy-icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.strategy-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #cbd5e1;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.strategy-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.strategy-card-title {
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #626976;
+}
+.strategy-card-img {
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+}
+
+.payoff-card {
+    border-bottom: 1px solid rgba(98, 105, 118, 0.16);
+}
+
+.payoff-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-button {
+    float: right;
+}

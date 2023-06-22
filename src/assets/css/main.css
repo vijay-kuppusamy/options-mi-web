@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+}
+
+.optionsmi-o {
+  color: #0437f2;
+  font-family: "Limelight", cursive;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.optionsmi {
+  color: #0437f2;
+  font-family: "Limelight", cursive;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: center;
+}
+
+.optionsmi-m {
+  color: #0437f2;
+  font-family: "Limelight", cursive;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.optionsmi-i {
+  color: #f88017;
+  font-family: "Limelight", cursive;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: center;
+}
+
+.space {
+  white-space: normal;
+  color: transparent;
+}
+
+.center-screen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.overlay {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.toggle {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formfield-error {
+  display: inline;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 85.71428571%;
+  color: #d63939;
+}
+
+.option-page {
+  min-height: 80vh;
+}
+
+.sticky {
+  position: sticky !important;
+  top: 55px !important;
+  z-index: 150;
+}

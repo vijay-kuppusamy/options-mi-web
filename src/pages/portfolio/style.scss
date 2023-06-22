@@ -1,0 +1,45 @@
+.portfolio-lable {
+    font-size: 1em !important;
+}
+.portfolio-title {
+    font-size: 0.9em !important;
+    padding: 5px;
+}
+.portfolio-date {
+    font-size: 0.9em !important;
+    padding: 5px;
+}
+.portfolio-price {
+    font-size: 0.9em !important;
+    padding: 5px;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-actions {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.portfolio-button {
+    margin-right: 10px;
+}
+
+.portfolio-table {
+    font-size: 1em !important;
+    background-color: white !important;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-table {
+    table {
+        thead, tbody, tfoot, tr, td, th {
+            text-align: center !important;
+        }
+    }
+}

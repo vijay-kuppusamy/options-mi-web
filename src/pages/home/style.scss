@@ -1,0 +1,18 @@
+.his-data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.his-data-label {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    padding-right: 10px;
+}
+
+.his-data-text {
+    font-size: 0.80em !important;
+    color: gray;
+    padding-right: 5px;
+}
